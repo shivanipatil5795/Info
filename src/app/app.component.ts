@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'info_home';
+  sections = [
+    { title: 'Service offerings' },
+    { title: 'Explore industries' },
+    { title: 'Our platforms' },
+    { title: 'Navigate your next' }
+  ];
 }
